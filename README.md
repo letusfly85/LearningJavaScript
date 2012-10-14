@@ -11,4 +11,4 @@
 
 ## image
 
-![sample image](LearningJavaScript/img/jsPlumbSample.png)
+![sample image](letusfly85.github.com/LearningJavaScript/img/jsPlumbSample.png)
