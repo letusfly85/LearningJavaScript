@@ -11,4 +11,4 @@
 
 ## image
 
-![sample image](img/jsPlumbSample.PNG)
+![sample image](img/jsPlumbSample.png)
