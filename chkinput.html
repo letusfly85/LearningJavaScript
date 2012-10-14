@@ -2,19 +2,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="Content-Script-Type" content="text/javascript">
-        <script language="JavaScript" type="text/javascript">
-        <!--
-        //-->
-        </script>
     </head>
 
     <body bgcolor="gray">
     <script language="JavaScript" type="text/javascript">
         <!--
-        function myCheck() {
-            alert ("confirm input");
-        }
-
         function checkInput(theForm) {
             if (theForm.uname.value == "") {
                 alert ("You can't use null for a keyword.");
@@ -39,7 +31,6 @@
     </script>
 
         <form name="enterCheck" method="post" action="./chgmsg.html" onsubmit="return checkInput(this)">
-        <!--form name="enterCheck" method="post" action="./chgmsg.html" onsubmit="myCheck()"-->
             <h3>Input your name, e-mail address, ID number</h3>
             <p>name  : <input name="uname" value="" size="40"><br>
                e-mail: <input name="mail"  value="" size="40"><br>
